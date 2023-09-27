@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+.bloco {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  justify-content: center;
+  letter-spacing: 2px;
+  width: 150px;
+}
+.bloco span {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.bloco .tempo {
+  font-size: 1.2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Opens Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #4fdfff, #07181b);
+  height: 100vh;
+  background-repeat: round;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  width: 550px;
+}
+
+@media (max-width: 450px) {
+  body {
+    align-items: start;
+  }
+  body .container {
+    margin-top: 30%;
+    flex-wrap: wrap;
+    box-shadow: none;
+  }
+  body .container .bloco {
+    width: 110px;
+    height: 150px;
+    margin: 15px;
+  }
+  body .container .bloco span {
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+  body .container .bloco .tempo {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
