@@ -1,0 +1,26 @@
+@media (max-width: 450px) {
+    body {
+        align-items: start;
+    }
+
+    .container {
+        margin-top: 30%;
+        flex-wrap: wrap;
+        box-shadow: none;
+
+        .bloco {
+            width: 110px;
+            height: 150px;
+            margin: 15px;
+
+            span {
+                font-size: 2.5em;
+                font-weight: bolder;
+            }
+
+            .tempo {
+                font-size: 1em;
+            }
+        }
+    }
+}
